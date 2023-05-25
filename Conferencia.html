@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para una conferencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario conferencia</h1>
+    <form name = "Formulario" method = "post" action=" /send.php">
+        <fieldset>
+        <input type="date"/><br>
+        <label for ="name"><b>Nombre completo:</b></label>
+        <input type ="text" name = "nombre" value="" id="name"/><br>
+        <label for ="name"><b>Correro electronico:</b></label>
+        <input type ="text" name = "nombre" value="" id="name"/><br>
+        <label for ="name"><b>Numero de telefono:</b></label>
+        <input type ="text" name = "nombre" value="" id="name"/><br>
+        <label for ="name"><b>Matricula:</b></label>
+        <input type ="text" name = "nombre" value="" id="name"/><br>
+
+
+        <select>
+            <option value = "HTML"> <b>Selecciona ocupacion:</b></option>
+            <option  value = "HTML">PUBLICIDAD</option>
+            <option  value = "HTML">DIRECTOR DE ALIMENTOS Y BEBIDAS</option>
+            <option  value = "HTML">DISEÑADOR WEB</option>
+            <option  value = "HTML">CAPITAN DE SERVICIOS</option>
+        </select>
+        <P>
+            <b>Selecciona tu talla de ropa:</b><br>
+            <input type = "checkbox" name ="Talla S">Talla S<br>
+            <input type = "checkbox" name ="Talla M">Talla M<br>
+            <input type = "checkbox" name ="Talla L">Talla L<br>
+            <input type = "checkbox" name ="Talla XL">Talla XL<br>
+        </P>
+        <P>
+            <b>Selecciona tu preferencia diatetica:</b><br>
+            <input type = "checkbox" name ="Vegeteriano">Vegeteriano<br>
+            <input type = "checkbox" name ="Vegano">Vegano<br>
+            <input type = "checkbox" name ="Sin gluten">Sin gluten<br>
+            <input type = "checkbox" name ="Sin restricciones">Sin restricciones<br>
+        </P>
+        <P>
+            <b>Sexo:</b><br>
+            <input type = "checkbox" name ="M">M<br>
+            <input type = "checkbox" name ="F">F<br>
+        </P>
+
+        <input type="submit" value = "Enviar" />
+    </fieldset>
+    </form>
+    
+</body>
+</html>
